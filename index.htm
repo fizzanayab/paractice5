@@ -8,7 +8,7 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<div class="container">
+<div class="container" >
   <div class="box"></div>
   <div class="container-forms">
     <div class="container-info">
@@ -41,9 +41,12 @@
       <div class="form-item log-in">
         <div class="table">
           <div class="table-cell">
-            <input name="Username" placeholder="Username" type="text" /><input name="Password" placeholder="Password" type="Password" />
-            <div class="btn">
+            <input type="text" id="username" placeholder="username">
+            <input type="password" id="password" placeholder="password">
+                        <div class="btn" onclick="login()">
               Log in
+            </div>
+            <div id="myDIV1">
             </div>
           </div>
         </div>
@@ -51,9 +54,11 @@
       <div class="form-item sign-up">
         <div class="table">
           <div class="table-cell">
-            <input name="email" placeholder="Email" type="text"  />
-            <div class="btn">
+            <input type="text" id="secret" placeholder="Secret code">
+            <div class="btn" onclick="login()" >
               Sign up
+            </div>
+            <div id="myDIV">
             </div>
           </div>
         </div>

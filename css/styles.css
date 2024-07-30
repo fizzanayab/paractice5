@@ -238,3 +238,16 @@ body {
   height: 0%;
   opacity: 0;
 }
+
+
+.mystyle {
+  width: 100%;
+  padding: 25px;
+  background-color: rgba(206, 33, 33, 0.521);
+  color: white;
+  font-size: 10px;
+}
+
+.mystyle:before {
+  content: "incorrect!! check your code,password or username again";
+}
